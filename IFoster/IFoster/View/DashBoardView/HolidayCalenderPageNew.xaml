@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="IFoster.View.DashBoardView.HolidayCalenderPageNew"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    ios:Page.UseSafeArea="true"
+    BackgroundColor="{StaticResource PageBackgroundColor}"
+    ControlTemplate="{StaticResource HolidayCalenderPageTemplate}">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <!--  Collection View  -->
+
+            <CollectionView
+                Margin="10,5"
+                BackgroundColor="{StaticResource PageBackgroundColor}"
+                HorizontalOptions="FillAndExpand"
+                ItemSizingStrategy="MeasureFirstItem"
+                ItemsSource="{Binding ListOfHolidayCalender}"
+                VerticalOptions="FillAndExpand">
+
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="5" Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout
+                            Padding="10"
+                            BackgroundColor="White"
+                            Orientation="Horizontal"
+                            Spacing="10"
+                            VerticalOptions="Center">
+
+                            <!--  Date in Circle  -->
+                            <Frame
+                                Padding="5"
+                                BackgroundColor="{Binding FrameColor}"
+                                CornerRadius="35"
+                                HasShadow="False"
+                                HeightRequest="60"
+                                HorizontalOptions="Start"
+                                WidthRequest="60">
+                                <StackLayout
+                                    Orientation="Vertical"
+                                    Spacing="5"
+                                    VerticalOptions="Center">
+                                    <Label
+                                        FontAttributes="Bold"
+                                        FontSize="19"
+                                        HorizontalOptions="CenterAndExpand"
+                                        Text="{Binding SerialNo}" />
+                                    <Label
+                                        FontSize="16"
+                                        HorizontalOptions="CenterAndExpand"
+                                        Text="{Binding Months}" />
+                                </StackLayout>
+                            </Frame>
+
+                            <StackLayout Orientation="Vertical" VerticalOptions="Center">
+
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="ic_holiday" />
+                                    <Label
+                                        FontAttributes="Bold"
+                                        HorizontalOptions="StartAndExpand"
+                                        Text="{Binding Event}"
+                                        VerticalOptions="StartAndExpand" />
+
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="ic_detail" />
+                                    <Label
+                                        HorizontalOptions="StartAndExpand"
+                                        Text="{Binding EventName}"
+                                        VerticalOptions="StartAndExpand" />
+                                </StackLayout>
+
+
+                            </StackLayout>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

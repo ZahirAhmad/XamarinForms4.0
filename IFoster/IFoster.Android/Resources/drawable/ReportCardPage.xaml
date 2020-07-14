@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="IFoster.View.DashBoardView.ReportCardPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Report Card">
+    <StackLayout Padding="10" Orientation="Vertical">
+
+
+        <StackLayout Orientation="Horizontal">
+
+            <Image
+                HeightRequest="70"
+                Source="user"
+                WidthRequest="70" />
+
+            <StackLayout
+                Padding="10"
+                Orientation="Vertical"
+                Spacing="0">
+
+                <Label
+                    HorizontalOptions="StartAndExpand"
+                    Text="Zahir Ahmad"
+                    VerticalOptions="CenterAndExpand" />
+
+                <Label
+                    HorizontalOptions="StartAndExpand"
+                    Text="12th"
+                    VerticalOptions="CenterAndExpand" />
+
+            </StackLayout>
+
+        </StackLayout>
+
+        <Label
+            Text="Unit Test 1"
+            TextColor="#FC0000"
+            TextDecorations="Underline" />
+
+        <Frame BackgroundColor="DarkGray">
+            <Label Text="Mathematics" TextColor="White" />
+        </Frame>
+
+        <Frame BackgroundColor="DarkGray">
+            <Label Text="Mathematics" TextColor="White" />
+        </Frame>
+
+        <Frame BackgroundColor="DarkGray">
+            <Label Text="Mathematics" TextColor="White" />
+        </Frame>
+
+        <Frame BackgroundColor="DarkGray">
+            <Label Text="Mathematics" TextColor="White" />
+        </Frame>
+
+        <Frame BackgroundColor="DarkGray">
+            <Label Text="Mathematics" TextColor="White" />
+        </Frame>
+
+
+    </StackLayout>
+
+
+
+</ContentPage>

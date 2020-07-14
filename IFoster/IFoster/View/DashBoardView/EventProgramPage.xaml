@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IFoster.View.DashBoardView.EventProgramPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:template="clr-namespace:IFoster.View.DataTemplateSelectors"
+    Title="Event &amp; Program"
+    ios:Page.UseSafeArea="true"
+    ControlTemplate="{StaticResource EventsProgramPageTemplate}"
+    mc:Ignorable="d">
+
+    <ContentPage.Resources>
+
+        <ResourceDictionary>
+
+            <!--  Data Template Selector  -->
+            <template:EventsProgramTemplateSelector x:Key="EventProgramTemplate" />
+
+            <Style TargetType="Frame">
+                <Setter Property="CornerRadius" Value="0" />
+                <Setter Property="Padding" Value="0" />
+                <Setter Property="HasShadow" Value="True" />
+            </Style>
+
+        </ResourceDictionary>
+
+    </ContentPage.Resources>
+
+
+    <StackLayout>
+
+        <Grid ColumnSpacing="0" HorizontalOptions="FillAndExpand">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!--  ClassWise Events  -->
+            <Frame Grid.Row="0" Grid.Column="0">
+
+                <StackLayout
+                    HorizontalOptions="FillAndExpand"
+                    Spacing="0"
+                    VerticalOptions="FillAndExpand">
+
+                    <Label
+                        HorizontalOptions="CenterAndExpand"
+                        Text="ClassWise Events"
+                        TextColor="{Binding ClassWiseEventsTabColor}"
+                        VerticalOptions="CenterAndExpand" />
+
+                    <BoxView
+                        BackgroundColor="{Binding ClassWiseEventsLineColor}"
+                        HeightRequest="2"
+                        VerticalOptions="End" />
+
+                </StackLayout>
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ClassWiseEventsTabCommand}" />
+                </Frame.GestureRecognizers>
+
+            </Frame>
+
+            <!--  Global Events  -->
+            <Frame Grid.Row="0" Grid.Column="1">
+
+                <StackLayout Spacing="0">
+
+                    <Label
+                        HorizontalOptions="CenterAndExpand"
+                        Text="Archive"
+                        TextColor="{Binding GlobalEventsTabColor}"
+                        VerticalOptions="CenterAndExpand" />
+
+                    <BoxView
+                        BackgroundColor="{Binding GlobalEventsLineColor}"
+                        HeightRequest="2"
+                        VerticalOptions="End" />
+
+                </StackLayout>
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding GlobalEventsTabCommand}" />
+                </Frame.GestureRecognizers>
+
+            </Frame>
+
+        </Grid>
+
+        <!--  CarouselView  -->
+        <StackLayout VerticalOptions="FillAndExpand">
+
+            <CarouselView
+                CurrentItemChanged="CarouselView_CurrentItemChanged"
+                HorizontalOptions="FillAndExpand"
+                ItemTemplate="{StaticResource EventProgramTemplate}"
+                ItemsSource="{Binding ListOfTab}"
+                Position="{Binding SelectedTabIndex, Mode=TwoWay}"
+                VerticalOptions="FillAndExpand" />
+
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

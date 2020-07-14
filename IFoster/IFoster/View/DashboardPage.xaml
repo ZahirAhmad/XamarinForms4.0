@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IFoster.View.DashboardPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Dashboard"
+    ios:Page.UseSafeArea="true"
+    BackgroundColor="#E5E5E5"
+    ControlTemplate="{StaticResource MainPageTemplate}"
+    IconImageSource="ic_menu.png"
+    mc:Ignorable="d">
+
+
+    <ContentPage.Resources>
+
+        <ResourceDictionary>
+
+            <Style TargetType="Frame">
+                <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="HasShadow" Value="{OnPlatform Android=True, iOS=False}" />
+            </Style>
+
+            <Style x:Key="InnerFrame" TargetType="Frame">
+                <Setter Property="CornerRadius" Value="{OnPlatform Android=40, iOS=25}" />
+                <Setter Property="HeightRequest" Value="50" />
+                <Setter Property="WidthRequest" Value="50" />
+                <Setter Property="Padding" Value="0" />
+                <Setter Property="BackgroundColor" Value="#E5E5E5" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="HasShadow" Value="{OnPlatform Android=True, iOS=False}" />
+
+            </Style>
+
+
+            <Style TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+
+            <Style TargetType="Image">
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="HeightRequest" Value="30" />
+                <Setter Property="WidthRequest" Value="30" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+
+    <ScrollView
+        Padding="10"
+        HorizontalOptions="FillAndExpand"
+        Orientation="Vertical"
+        VerticalOptions="FillAndExpand"
+        VerticalScrollBarVisibility="Never">
+
+
+
+        <StackLayout>
+
+
+
+            <Frame
+                Padding="5"
+                BackgroundColor="#5134B5"
+                CornerRadius="10"
+                HeightRequest="90">
+
+                <StackLayout>
+
+                    <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+                        <Image Source="ic_today" />
+
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="18"
+                            Text="Today Activity"
+                            TextColor="White"
+                            VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout
+                        Margin="5"
+                        HorizontalOptions="FillAndExpand"
+                        Orientation="Horizontal"
+                        VerticalOptions="Start">
+                        <Label
+                            FontSize="12"
+                            Text="Homework"
+                            TextColor="White">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding HomeworkCommand}" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <BoxView
+                            BackgroundColor="White"
+                            HeightRequest="20"
+                            VerticalOptions="Start"
+                            WidthRequest="2" />
+                        <Label
+                            FontSize="12"
+                            Text="Notice Board"
+                            TextColor="White">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding NoticeBoardCommand}" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <BoxView
+                            BackgroundColor="White"
+                            HeightRequest="20"
+                            WidthRequest="2" />
+                        <Label
+                            FontSize="12"
+                            Text="Events &amp; Program"
+                            TextColor="White">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding EventsProgramCommand}" />
+                            </Label.GestureRecognizers>
+                        </Label>
+
+
+
+                    </StackLayout>
+
+                    <BoxView
+                        BackgroundColor="White"
+                        HeightRequest="1"
+                        HorizontalOptions="FillAndExpand" />
+
+
+                </StackLayout>
+
+            </Frame>
+
+            <Grid
+                Margin="0,10,0,0"
+                ColumnSpacing="{OnPlatform Android=12,
+                                           iOS=15}"
+                HorizontalOptions="FillAndExpand"
+                RowSpacing="{OnPlatform Android=12,
+                                        iOS=15}"
+                VerticalOptions="FillAndExpand">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="{OnIdiom Phone=100, Tablet=150}" />
+                    <RowDefinition Height="{OnIdiom Phone=100, Tablet=150}" />
+                    <RowDefinition Height="{OnIdiom Phone=100, Tablet=150}" />
+                    <RowDefinition Height="{OnIdiom Phone=100, Tablet=150}" />
+                    <RowDefinition Height="{OnIdiom Phone=100, Tablet=150}" />
+                    <RowDefinition Height="{OnIdiom Phone=100, Tablet=150}" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Frame
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Padding="5"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding AttendanceCommand}" />
+                    </Frame.GestureRecognizers>
+
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                        <Frame Padding="0" Style="{StaticResource InnerFrame}">
+                            <Image Source="call.png" />
+                        </Frame>
+                        <Label Text="ATTENDANCE" TextColor="Black" />
+                    </StackLayout>
+                </Frame>
+
+
+                <Frame
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Padding="5"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding FeeCommand}" />
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                        <Frame Style="{StaticResource InnerFrame}">
+                            <Image Source="ic_rupees.png" />
+                        </Frame>
+                        <Label Text="FEE" TextColor="Black" />
+                    </StackLayout>
+                </Frame>
+
+
+                <Frame
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Padding="5"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding ResultCommand}" />
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                        <Frame Style="{StaticResource InnerFrame}">
+                            <Image Source="ic_results.png" />
+                        </Frame>
+                        <Label Text="RESULT" TextColor="Black" />
+                    </StackLayout>
+                </Frame>
+
+
+                <Frame
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Padding="5"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding LeaveCommand}" />
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                        <Frame Style="{StaticResource InnerFrame}">
+                            <Image Source="leave.png" />
+                        </Frame>
+                        <Label Text="LEAVE" TextColor="Black" />
+                    </StackLayout>
+                </Frame>
+
+
+
+
+                <Frame
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Padding="5"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding ExamScheduleCommand}" />
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                        <Frame Style="{StaticResource InnerFrame}">
+                            <Image Source="ic_schedule.png" />
+                        </Frame>
+                        <Label Text="EXAM SCHEDULE" TextColor="Black" />
+                    </StackLayout>
+                </Frame>
+
+
+
+                <Frame
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Padding="5"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding TimeTableCommand}" />
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                        <Frame Style="{StaticResource InnerFrame}">
+                            <Image Source="ic_time_table.png" />
+                        </Frame>
+                        <Label Text="TIME TABLE" TextColor="Black" />
+                    </StackLayout>
+                </Frame>
+
+
+
+                <Frame
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Padding="5"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding HolidayCalenderCommand}" />
+                    </Frame.GestureRecognizers>
+
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                        <Frame Style="{StaticResource InnerFrame}">
+                            <Image Source="ic_calender.png" />
+                        </Frame>
+                        <Label Text="HOLIDAY CALENDER" TextColor="Black" />
+                    </StackLayout>
+                </Frame>
+
+
+
+                <Frame
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Padding="5"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding MedicalIdCommand}" />
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                        <Frame Style="{StaticResource InnerFrame}">
+                            <Image Source="ic_hospital.png" />
+                        </Frame>
+                        <Label Text="MEDICAL ID" TextColor="Black" />
+                    </StackLayout>
+                </Frame>
+
+
+
+                <Frame
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Padding="5"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding AchievementCommand}" />
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                        <Frame Style="{StaticResource InnerFrame}">
+                            <Image Source="ic_achieve.png" />
+                        </Frame>
+                        <Label Text="ACHIEVEMENT" TextColor="Black" />
+                    </StackLayout>
+                </Frame>
+
+
+
+                <Frame
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    Padding="5"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding GalleryCommand}" />
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                        <Frame Style="{StaticResource InnerFrame}">
+                            <Image Source="ic_gallery.png" />
+                        </Frame>
+                        <Label Text="GALLERY" TextColor="Black" />
+                    </StackLayout>
+                </Frame>
+
+
+
+                <Frame
+                    Grid.Row="5"
+                    Grid.Column="0"
+                    Padding="5"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding CommunicationCommand}" />
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                        <Frame Style="{StaticResource InnerFrame}">
+                            <Image Source="ic_communications.png" />
+                        </Frame>
+                        <Label Text="COMMUNICATION" TextColor="Black" />
+                    </StackLayout>
+                </Frame>
+
+
+                <Frame
+                    Grid.Row="5"
+                    Grid.Column="1"
+                    Padding="5"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding RouteLocatorCommand}" />
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                        <Frame Style="{StaticResource InnerFrame}">
+                            <Image Source="ic_place.png" />
+                        </Frame>
+                        <Label Text="ROUTE LOCATER" TextColor="Black" />
+                    </StackLayout>
+                </Frame>
+            </Grid>
+
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>

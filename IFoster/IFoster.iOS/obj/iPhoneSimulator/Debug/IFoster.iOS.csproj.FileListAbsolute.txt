@@ -1,0 +1,200 @@
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/IFoster.iOS.exe
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/IFoster.iOS.pdb
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Plugin.Share.Abstractions.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Plugin.Share.Abstractions.pdb
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Plugin.Share.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/pt-br/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/xunit.abstractions.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/xunit.core.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/IFoster.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/IFoster.pdb
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/actool/_PartialAppManifest.items
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/actool/_BundleResourceWithLogicalName.items
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/coremlc/_PartialAppManifest.items
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/coremlc/_BundleResourceWithLogicalName.items
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/call.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_achieve.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_attendance.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_calender.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_communications.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_gallery.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_hospital.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_menu.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_place.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_results.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_rupees.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_schedule.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_time_table.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_today.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ifoster.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/leave.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/user.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/image.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_book.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_time.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_teacher.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_date.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_detail.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_holiday.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/achievementlogo.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/arrowsmall.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/changemobileno.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/changepassword.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/help.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/logout.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ratethisapp.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/share.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/switchuser.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/hamburger.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/bell.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_plus.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/IFoster.iOS.csprojAssemblyReference.cache
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/IFoster.iOS.csproj.CopyComplete
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/IFoster.iOS.exe
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/IFoster.iOS.pdb
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/optimized/ic_back.png
+/Users/zahirahmad/Documents/Documents/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/IFoster.iOS.csproj.CoreCompileInputs.cache
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/IFoster.iOS.exe
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/IFoster.iOS.pdb
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Plugin.Share.Abstractions.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Plugin.Share.Abstractions.pdb
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Plugin.Share.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/pt-br/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/xunit.abstractions.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/xunit.core.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/IFoster.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/IFoster.pdb
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/actool/_PartialAppManifest.items
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/actool/_BundleResourceWithLogicalName.items
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/coremlc/_PartialAppManifest.items
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/coremlc/_BundleResourceWithLogicalName.items
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/call.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_achieve.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_attendance.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_calender.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_communications.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_gallery.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_hospital.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_menu.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_place.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_results.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_rupees.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_schedule.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_time_table.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_today.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ifoster.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/leave.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/user.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/image.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_book.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_time.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_teacher.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_date.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_detail.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_holiday.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/achievementlogo.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/arrowsmall.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/changemobileno.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/changepassword.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/help.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/logout.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ratethisapp.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/share.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/switchuser.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/hamburger.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/bell.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_plus.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/ic_back.png
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/IFoster.iOS.csprojAssemblyReference.cache
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/IFoster.iOS.csproj.CoreCompileInputs.cache
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/IFoster.iOS.csproj.CopyComplete
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/IFoster.iOS.exe
+/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/iPhoneSimulator/Debug/IFoster.iOS.pdb

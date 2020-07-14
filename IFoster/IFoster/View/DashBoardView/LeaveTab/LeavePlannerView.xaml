@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView
+    x:Class="IFoster.View.DashBoardView.LeaveTab.LeavePlannerView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:IFoster.Renderers">
+    <ContentView.Content>
+        <StackLayout
+            BackgroundColor="White"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+
+            <DatePicker />
+            <DatePicker />
+            <Entry Keyboard="Numeric" Placeholder="No of Days" />
+            <controls:CustomPicker
+                HorizontalOptions="FillAndExpand"
+                Image="arrowsmall"
+                IsVisible="True">
+                <controls:CustomPicker.Items>
+                    <x:String>Select leave type</x:String>
+                    <x:String>Medical</x:String>
+                    <x:String>Personal</x:String>
+                    <x:String>Emergency</x:String>
+                    <x:String>Other</x:String>
+                </controls:CustomPicker.Items>
+            </controls:CustomPicker>
+            <Entry Placeholder="write your reason here.." />
+
+            <Grid ColumnSpacing="1" VerticalOptions="EndAndExpand">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Margin="-20,0,0,0"
+                    BackgroundColor="#FC0000"
+                    Command="{Binding CancelCommand}"
+                    Text="Cancel"
+                    TextColor="White" />
+
+                <Button
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Margin="0,0,-20,0"
+                    BackgroundColor="#FC0000"
+                    Command="{Binding SaveCommand}"
+                    Text="Save"
+                    TextColor="White" />
+
+            </Grid>
+
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="IFoster.View.DashBoardView.MasterMenuView.MasterOptionPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    Title="Master Page"
+    ios:Page.UseSafeArea="true"
+    Icon="hamburger">
+
+    <StackLayout Margin="0" Orientation="Vertical">
+
+        <StackLayout
+            Padding="20"
+            BackgroundColor="#FC0000"
+            Orientation="Horizontal">
+            <Image
+                HeightRequest="100"
+                Source="user"
+                WidthRequest="100" />
+
+            <Label
+                FontSize="30"
+                HorizontalOptions="StartAndExpand"
+                Text="Zahir"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+
+        <StackLayout
+            Margin="10,0,0,0"
+            Padding="5"
+            Orientation="Horizontal">
+
+            <Image Source="changepassword" />
+            <Label
+                Margin="0,15,0,15"
+                FontSize="{StaticResource Font18}"
+                HeightRequest="30"
+                HorizontalOptions="FillAndExpand"
+                Text="Change Password"
+                TextColor="{StaticResource ColorNavyBlue}">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ChangePasswordPageCommand}" />
+                </Label.GestureRecognizers>
+
+
+            </Label>
+        </StackLayout>
+
+        <BoxView
+            Margin="0,-8,0,0"
+            BackgroundColor="{StaticResource ColorNavyBlue}"
+            HeightRequest="1" />
+
+
+        <StackLayout
+            Margin="10,0,0,0"
+            Padding="5"
+            Orientation="Horizontal">
+            <Image Source="changemobileno" />
+            <Label
+                Margin="0,15,0,15"
+                FontSize="{StaticResource Font18}"
+                HeightRequest="30"
+                HorizontalOptions="FillAndExpand"
+                Text="Change Mobile No"
+                TextColor="{StaticResource ColorNavyBlue}">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ChangeMobileNoPageCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
+
+        </StackLayout>
+
+        <BoxView
+            Margin="0,-8,0,0"
+            BackgroundColor="{StaticResource ColorNavyBlue}"
+            HeightRequest="1" />
+
+        <StackLayout
+            Margin="10,0,0,0"
+            Padding="5"
+            Orientation="Horizontal">
+            <Image Source="switchuser" />
+            <Label
+                Margin="0,15,0,15"
+                FontSize="{StaticResource Font18}"
+                HeightRequest="30"
+                HorizontalOptions="FillAndExpand"
+                Text="Switch User"
+                TextColor="{StaticResource ColorNavyBlue}">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding SwitchUserPageCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
+
+        </StackLayout>
+
+        <BoxView
+            Margin="0,-8,0,0"
+            BackgroundColor="{StaticResource ColorNavyBlue}"
+            HeightRequest="1" />
+
+        <StackLayout
+            Margin="10,0,0,0"
+            Padding="5"
+            Orientation="Horizontal">
+            <Image Source="ratethisapp" />
+            <Label
+                Margin="0,15,0,15"
+                FontSize="{StaticResource Font18}"
+                HeightRequest="30"
+                HorizontalOptions="FillAndExpand"
+                Text="Rate this App"
+                TextColor="{StaticResource ColorNavyBlue}">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding RateThisAppPageCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
+
+        </StackLayout>
+
+        <BoxView
+            Margin="0,-8,0,0"
+            BackgroundColor="{StaticResource ColorNavyBlue}"
+            HeightRequest="1" />
+
+        <StackLayout
+            Margin="10,0,0,0"
+            Padding="5"
+            Orientation="Horizontal">
+            <Image Source="share" />
+            <Label
+                Margin="0,15,0,15"
+                FontSize="{StaticResource Font18}"
+                HeightRequest="30"
+                HorizontalOptions="FillAndExpand"
+                Text="Share"
+                TextColor="{StaticResource ColorNavyBlue}">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding SharePageCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
+
+        </StackLayout>
+
+        <BoxView
+            Margin="0,-8,0,0"
+            BackgroundColor="{StaticResource ColorNavyBlue}"
+            HeightRequest="1" />
+
+        <StackLayout
+            Margin="10,0,0,0"
+            Padding="5"
+            Orientation="Horizontal">
+            <Image Source="help" />
+            <Label
+                Margin="0,15,0,15"
+                FontSize="{StaticResource Font18}"
+                HeightRequest="30"
+                HorizontalOptions="FillAndExpand"
+                Text="Help"
+                TextColor="{StaticResource ColorNavyBlue}">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding HelpPageCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
+
+        </StackLayout>
+
+        <BoxView
+            Margin="0,-8,0,0"
+            BackgroundColor="{StaticResource ColorNavyBlue}"
+            HeightRequest="1" />
+
+        <StackLayout
+            Margin="10,0,0,0"
+            Padding="5"
+            Orientation="Horizontal">
+            <Image Source="logout" />
+            <Label
+                Margin="0,15,0,15"
+                FontSize="{StaticResource Font18}"
+                HeightRequest="30"
+                HorizontalOptions="FillAndExpand"
+                Text="Logout"
+                TextColor="{StaticResource ColorNavyBlue}">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding LogoutPageCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
+
+        </StackLayout>
+
+        <BoxView
+            Margin="0,-8,0,0"
+            BackgroundColor="{StaticResource ColorNavyBlue}"
+            HeightRequest="1" />
+
+    </StackLayout>
+</ContentPage>

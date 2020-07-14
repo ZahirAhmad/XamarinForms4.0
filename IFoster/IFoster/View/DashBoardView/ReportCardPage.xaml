@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="IFoster.View.DashBoardView.ReportCardPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    Title="Report Card"
+    ios:Page.UseSafeArea="true"
+    ControlTemplate="{StaticResource ReportCardPageTemplate}"
+    IconImageSource="ic_back"
+    NavigationPage.HasNavigationBar="False">
+
+
+    <StackLayout Padding="10" Orientation="Vertical">
+
+        <StackLayout Orientation="Horizontal">
+
+            <Image
+                HeightRequest="60"
+                Source="user"
+                WidthRequest="60" />
+
+            <StackLayout Padding="10" Orientation="Vertical">
+
+                <Label Text="Zahir Ahmad" TextColor="Black" />
+                <Label Text="12th" TextColor="Black" />
+
+            </StackLayout>
+
+
+
+        </StackLayout>
+
+        <Label
+            Text="Unit Test 1"
+            TextColor="#FC0000"
+            TextDecorations="Underline" />
+
+        <Frame
+            BackgroundColor="DarkGray"
+            CornerRadius="0"
+            HasShadow="False"
+            HeightRequest="10">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Methametics" TextColor="White" />
+                <Image
+                    HorizontalOptions="EndAndExpand"
+                    Source="ic_plus"
+                    VerticalOptions="StartAndExpand" />
+            </StackLayout>
+        </Frame>
+
+        <Frame
+            BackgroundColor="DarkGray"
+            CornerRadius="0"
+            HasShadow="False"
+            HeightRequest="10">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="English" TextColor="White" />
+                <Image
+                    HorizontalOptions="EndAndExpand"
+                    Source="ic_plus"
+                    VerticalOptions="StartAndExpand" />
+            </StackLayout>
+        </Frame>
+
+        <Frame
+            BackgroundColor="DarkGray"
+            CornerRadius="0"
+            HasShadow="False"
+            HeightRequest="10">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Hindi" TextColor="White" />
+                <Image
+                    HorizontalOptions="EndAndExpand"
+                    Source="ic_plus"
+                    VerticalOptions="StartAndExpand" />
+            </StackLayout>
+        </Frame>
+
+        <Frame
+            BackgroundColor="DarkGray"
+            CornerRadius="0"
+            HasShadow="False"
+            HeightRequest="10">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Enviromental Sensitivity" TextColor="White" />
+                <Image
+                    HorizontalOptions="EndAndExpand"
+                    Source="ic_plus"
+                    VerticalOptions="StartAndExpand" />
+            </StackLayout>
+        </Frame>
+
+        <Frame
+            BackgroundColor="DarkGray"
+            CornerRadius="0"
+            HasShadow="False"
+            HeightRequest="10">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Co-curricular Activities" TextColor="White" />
+                <Image
+                    HorizontalOptions="EndAndExpand"
+                    Source="ic_plus"
+                    VerticalOptions="StartAndExpand" />
+            </StackLayout>
+        </Frame>
+
+
+        <StackLayout
+            Padding="10"
+            Orientation="Horizontal"
+            Spacing="20">
+            <Label Text="Result Status" TextColor="Black" />
+            <Label
+                HorizontalOptions="Center"
+                Text="Pass"
+                TextColor="LightGray" />
+        </StackLayout>
+
+        <StackLayout
+            Padding="10"
+            Orientation="Horizontal"
+            Spacing="20">
+            <Label Text="Final Remark" TextColor="Black" />
+            <Label
+                HorizontalOptions="Center"
+                Text="Remark"
+                TextColor="LightGray" />
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

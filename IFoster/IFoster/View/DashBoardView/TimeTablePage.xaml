@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IFoster.View.DashBoard.TimeTablePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Time Table"
+    ios:Page.UseSafeArea="true"
+    BackgroundColor="{StaticResource PageBackgroundColor}"
+    ControlTemplate="{StaticResource TimeTablePageTemplate}"
+    mc:Ignorable="d">
+
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <CollectionView
+                BackgroundColor="{StaticResource PageBackgroundColor}"
+                HeightRequest="{OnPlatform Android=95,
+                                           iOS=90}"
+                HorizontalOptions="FillAndExpand"
+                ItemSizingStrategy="MeasureFirstItem"
+                ItemsLayout="HorizontalList"
+                ItemsSource="{Binding ListOfDay}"
+                VerticalOptions="FillAndExpand">
+
+
+                <CollectionView.ItemTemplate>
+
+                    <DataTemplate>
+
+                        <StackLayout
+                            Padding="10"
+                            BackgroundColor="White"
+                            Orientation="Horizontal"
+                            Spacing="10"
+                            VerticalOptions="Center">
+
+
+
+                            <Frame
+                                Padding="5"
+                                BackgroundColor="#E5E5E5"
+                                CornerRadius="30"
+                                HasShadow="False"
+                                HeightRequest="80"
+                                HorizontalOptions="Start"
+                                WidthRequest="50">
+                                <Label
+                                    HorizontalOptions="CenterAndExpand"
+                                    Text="{Binding AllDay}"
+                                    VerticalOptions="CenterAndExpand" />
+                            </Frame>
+
+
+
+                        </StackLayout>
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+
+            <CollectionView
+                Margin="5"
+                BackgroundColor="{StaticResource PageBackgroundColor}"
+                HorizontalOptions="FillAndExpand"
+                ItemSizingStrategy="MeasureFirstItem"
+                ItemsSource="{Binding ListOfTimeTable}"
+                VerticalOptions="FillAndExpand">
+
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="5" Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+
+                    <DataTemplate>
+
+                        <StackLayout
+                            Padding="10"
+                            BackgroundColor="White"
+                            Orientation="Horizontal"
+                            Spacing="5"
+                            VerticalOptions="Center">
+
+
+
+                            <Frame
+                                Padding="5"
+                                BackgroundColor="{Binding FrameColor}"
+                                CornerRadius="35"
+                                HeightRequest="60"
+                                HorizontalOptions="Start"
+                                WidthRequest="60">
+                                <Label
+                                    HorizontalOptions="CenterAndExpand"
+                                    Text="{Binding SeriolNo}"
+                                    VerticalOptions="CenterAndExpand" />
+                            </Frame>
+
+                            <StackLayout Orientation="Vertical">
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="ic_time" />
+                                    <Label
+                                        HorizontalOptions="CenterAndExpand"
+                                        Text="{Binding Time}"
+                                        VerticalOptions="CenterAndExpand" />
+
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="ic_book" />
+                                    <Label
+                                        HorizontalOptions="StartAndExpand"
+                                        Text="{Binding Subject}"
+                                        VerticalOptions="StartAndExpand" />
+
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="ic_teacher" />
+                                    <Label
+                                        HorizontalOptions="StartAndExpand"
+                                        Text="{Binding TeacherName}"
+                                        VerticalOptions="StartAndExpand" />
+                                </StackLayout>
+
+                            </StackLayout>
+
+                        </StackLayout>
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

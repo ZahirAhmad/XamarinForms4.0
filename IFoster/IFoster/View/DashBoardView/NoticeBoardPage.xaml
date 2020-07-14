@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IFoster.View.DashBoardView.NoticeBoardPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:template="clr-namespace:IFoster.View.DataTemplateSelectors"
+    Title="Notice Board"
+    ios:Page.UseSafeArea="true"
+    ControlTemplate="{StaticResource NoticeBoardPageTemplate}"
+    mc:Ignorable="d">
+
+    <ContentPage.Resources>
+
+        <ResourceDictionary>
+
+            <!--  Data Template Selector  -->
+            <template:NoticeBoardTemplateSelector x:Key="NoticeBoardTemplate" />
+
+
+            <!--  Style Use  -->
+
+            <Style TargetType="Frame">
+                <Setter Property="CornerRadius" Value="0" />
+                <Setter Property="Padding" Value="0" />
+                <Setter Property="HasShadow" Value="True" />
+            </Style>
+
+        </ResourceDictionary>
+
+    </ContentPage.Resources>
+
+    <StackLayout>
+
+        <!--  Grid Layout Use  -->
+
+        <Grid ColumnSpacing="0" HorizontalOptions="FillAndExpand">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!--  ClassWise Notice Tab  -->
+            <Frame Grid.Row="0" Grid.Column="0">
+                <StackLayout
+                    HorizontalOptions="FillAndExpand"
+                    Spacing="0"
+                    VerticalOptions="FillAndExpand">
+
+                    <Label
+                        HorizontalOptions="CenterAndExpand"
+                        Text="ClassWise Notice"
+                        TextColor="{Binding ClassWiseNoticeTabColor}"
+                        VerticalOptions="CenterAndExpand" />
+
+                    <BoxView
+                        BackgroundColor="{Binding ClassWiseNoticeLineColor}"
+                        HeightRequest="2"
+                        VerticalOptions="End" />
+
+                </StackLayout>
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ClassWiseNoticeTabCommand}" />
+                </Frame.GestureRecognizers>
+
+            </Frame>
+
+            <!--  Global Notice Tab  -->
+            <Frame Grid.Row="0" Grid.Column="1">
+
+                <StackLayout Spacing="0">
+
+                    <Label
+                        HorizontalOptions="CenterAndExpand"
+                        Text="Global Notice"
+                        TextColor="{Binding GlobalNoticeTabColor}"
+                        VerticalOptions="CenterAndExpand" />
+
+                    <BoxView
+                        BackgroundColor="{Binding GlobalNoticeLineColor}"
+                        HeightRequest="2"
+                        VerticalOptions="End" />
+
+                </StackLayout>
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding GlobalNoticeTabCommand}" />
+                </Frame.GestureRecognizers>
+
+            </Frame>
+
+        </Grid>
+
+        <!--  CarouselView  -->
+        <StackLayout VerticalOptions="FillAndExpand">
+
+            <CarouselView
+                CurrentItemChanged="CarouselView_CurrentItemChanged"
+                HorizontalOptions="FillAndExpand"
+                ItemTemplate="{StaticResource NoticeBoardTemplate}"
+                ItemsSource="{Binding ListOfTab}"
+                Position="{Binding SelectedTabIndex, Mode=TwoWay}"
+                VerticalOptions="FillAndExpand" />
+
+
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

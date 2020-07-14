@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IFoster.View.DashBoard.LeavePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:template="clr-namespace:IFoster.View.DataTemplateSelectors"
+    Title="Leave"
+    ios:Page.UseSafeArea="true"
+    ControlTemplate="{StaticResource LeavePageTemplate}"
+    mc:Ignorable="d">
+
+    <ContentPage.Resources>
+
+        <ResourceDictionary>
+
+            <Style TargetType="Frame">
+                <Setter Property="CornerRadius" Value="{OnPlatform Android=10, iOS=10}" />
+                <Setter Property="HeightRequest" Value="{OnPlatform Android=85, iOS=75}" />
+                <Setter Property="WidthRequest" Value="{OnPlatform Android=80, iOS=100}" />
+                <Setter Property="HasShadow" Value="False" />
+                <Setter Property="Padding" Value="10" />
+
+            </Style>
+
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="10" />
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions" Value="EndAndExpand" />
+                <Setter Property="TextColor" Value="White" />
+            </Style>
+
+            <Style TargetType="Image">
+                <Setter Property="HeightRequest" Value="{OnPlatform Android=25, iOS=30}" />
+                <Setter Property="WidthRequest" Value="{OnPlatform Android=25, iOS=30}" />
+            </Style>
+
+            <Style TargetType="BoxView">
+                <Setter Property="HeightRequest" Value="2" />
+                <Setter Property="BackgroundColor" Value="Red" />
+            </Style>
+
+
+            <!--  Data Template Selector  -->
+            <template:LeaveTemplateSelector x:Key="LeaveTemplate" />
+
+        </ResourceDictionary>
+
+    </ContentPage.Resources>
+
+
+    <StackLayout>
+
+
+        <Frame
+            Margin="10"
+            Padding="15"
+            HasShadow="True"
+            HeightRequest="{OnPlatform Android=120,
+                                       iOS=100}">
+
+            <Grid>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="{OnPlatform Android=85, iOS=75}" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+
+                <!--  Leave List  -->
+                <StackLayout
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Orientation="Vertical">
+
+                    <Frame BackgroundColor="Green">
+
+                        <StackLayout>
+
+                            <Image Source="image" VerticalOptions="CenterAndExpand" />
+                            <Label Text="Leave List" VerticalOptions="End" />
+
+                        </StackLayout>
+
+                        <!--  Tab Command  -->
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding LeaveListCommand}" />
+                        </Frame.GestureRecognizers>
+
+                    </Frame>
+
+                    <BoxView BackgroundColor="{Binding LeaveListLineColor}" IsVisible="{Binding IsLeaveListShow}" />
+
+                </StackLayout>
+
+
+                <!--  Leave History  -->
+                <StackLayout
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Orientation="Vertical">
+
+                    <Frame BackgroundColor="Orange">
+
+                        <StackLayout>
+
+                            <Image Source="image" VerticalOptions="CenterAndExpand" />
+                            <Label Text="Leave History" VerticalOptions="End" />
+
+                        </StackLayout>
+
+                        <!--  Tab Command  -->
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding LeaveHistoryCommand}" />
+                        </Frame.GestureRecognizers>
+                    </Frame>
+
+                    <BoxView BackgroundColor="{Binding LeaveHistoryLineColor}" IsVisible="{Binding IsLeaveHistoryShow}" />
+                </StackLayout>
+
+
+                <!--  Leave Planner  -->
+                <StackLayout
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    Orientation="Vertical">
+
+                    <Frame BackgroundColor="Blue">
+
+                        <StackLayout>
+
+                            <Image Source="image" VerticalOptions="CenterAndExpand" />
+                            <Label Text="Leave Planner" VerticalOptions="End" />
+
+                        </StackLayout>
+
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding LeavePlannerCommand}" />
+                        </Frame.GestureRecognizers>
+
+                    </Frame>
+
+                    <BoxView BackgroundColor="{Binding LeavePlannerLineColor}" IsVisible="{Binding IsLeavePlannerShow}" />
+
+                </StackLayout>
+
+
+            </Grid>
+
+        </Frame>
+
+
+        <!--  CarouselView  -->
+        <StackLayout VerticalOptions="FillAndExpand">
+
+            <CarouselView
+                CurrentItemChanged="CarouselView_CurrentItemChanged"
+                HorizontalOptions="FillAndExpand"
+                ItemTemplate="{StaticResource LeaveTemplate}"
+                ItemsSource="{Binding ListOfTab}"
+                Position="{Binding SelectedTabIndex}"
+                VerticalOptions="FillAndExpand" />
+
+        </StackLayout>
+    </StackLayout>
+
+
+</ContentPage>

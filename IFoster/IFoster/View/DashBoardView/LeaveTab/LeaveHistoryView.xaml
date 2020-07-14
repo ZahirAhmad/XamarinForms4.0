@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView
+    x:Class="IFoster.View.DashBoardView.LeaveTab.LeaveHistoryView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="{StaticResource PageBackgroundColor}">
+    <ContentView.Content>
+        <StackLayout>
+
+            <!--  Collection View  -->
+
+            <CollectionView
+                x:Name="list"
+                Margin="5"
+                BackgroundColor="{StaticResource PageBackgroundColor}"
+                HorizontalOptions="FillAndExpand"
+                ItemSizingStrategy="MeasureFirstItem"
+                ItemsSource="{Binding ListOfLeaveHistory}"
+                VerticalOptions="FillAndExpand">
+
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="5" Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout
+                            Padding="10"
+                            BackgroundColor="White"
+                            HorizontalOptions="CenterAndExpand"
+                            Orientation="Horizontal"
+                            Spacing="10"
+                            VerticalOptions="CenterAndExpand">
+
+                            <Frame
+                                Padding="5"
+                                BackgroundColor="{Binding FrameColor}"
+                                CornerRadius="35"
+                                HeightRequest="60"
+                                HorizontalOptions="Start"
+                                WidthRequest="60">
+
+                                <StackLayout Orientation="Vertical">
+                                    <Label
+                                        FontAttributes="Bold"
+                                        FontSize="20"
+                                        HorizontalOptions="CenterAndExpand"
+                                        Text="{Binding SerialNo}"
+                                        VerticalOptions="CenterAndExpand" />
+                                    <Label
+                                        FontSize="16"
+                                        HorizontalOptions="CenterAndExpand"
+                                        Text="{Binding Months}"
+                                        VerticalOptions="CenterAndExpand" />
+                                </StackLayout>
+
+
+                            </Frame>
+
+                            <StackLayout Orientation="Vertical">
+
+                                <StackLayout Orientation="Horizontal">
+
+                                    <Label
+                                        FontAttributes="Bold"
+                                        HorizontalOptions="StartAndExpand"
+                                        Text="{Binding Reason}"
+                                        TextColor="#FC0000"
+                                        VerticalOptions="StartAndExpand" />
+
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+
+                                    <Label
+                                        HorizontalOptions="CenterAndExpand"
+                                        Text="{Binding Date}"
+                                        TextColor="Black"
+                                        VerticalOptions="CenterAndExpand" />
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+
+                                    <Label
+                                        HorizontalOptions="StartAndExpand"
+                                        Text="{Binding ReasonName}"
+                                        TextColor="Black"
+                                        VerticalOptions="StartAndExpand" />
+                                </StackLayout>
+
+                            </StackLayout>
+
+                            <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand">
+                                <Button
+                                    BackgroundColor="#FC0000"
+                                    CornerRadius="10"
+                                    HeightRequest="{OnPlatform Android=40,
+                                                               iOS=30}"
+                                    Text="Pending"
+                                    TextColor="White"
+                                    WidthRequest="100" />
+                            </StackLayout>
+
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

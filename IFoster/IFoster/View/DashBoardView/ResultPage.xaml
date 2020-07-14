@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IFoster.View.DashBoard.ResultPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Exam List"
+    ios:Page.UseSafeArea="true"
+    ControlTemplate="{StaticResource ResultPageTemplate}"
+    mc:Ignorable="d">
+    <StackLayout>
+
+        <!--  Collection View  -->
+
+        <CollectionView
+            Margin="5"
+            BackgroundColor="{StaticResource PageBackgroundColor}"
+            HorizontalOptions="FillAndExpand"
+            ItemSizingStrategy="MeasureFirstItem"
+            ItemsSource="{Binding ListOfResult}"
+            VerticalOptions="FillAndExpand">
+
+            <CollectionView.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding ReportCardCommand}" />
+            </CollectionView.GestureRecognizers>
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout ItemSpacing="5" Orientation="Vertical" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout
+                        Padding="10"
+                        BackgroundColor="White"
+                        Orientation="Horizontal"
+                        Spacing="10"
+                        VerticalOptions="Center">
+
+
+
+                        <Frame
+                            Padding="5"
+                            BackgroundColor="{Binding FrameColor}"
+                            CornerRadius="35"
+                            HasShadow="False"
+                            HeightRequest="60"
+                            HorizontalOptions="Start"
+                            WidthRequest="60">
+                            <StackLayout Orientation="Horizontal">
+
+                                <Label
+                                    FontSize="20"
+                                    HorizontalOptions="CenterAndExpand"
+                                    Text="{Binding ExamListShort}"
+                                    VerticalOptions="CenterAndExpand" />
+                                <Label
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    HorizontalOptions="CenterAndExpand"
+                                    Text="{Binding SerialNo}"
+                                    VerticalOptions="CenterAndExpand" />
+
+                            </StackLayout>
+                        </Frame>
+
+                        <StackLayout Orientation="Horizontal">
+
+
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="15"
+                                HorizontalOptions="CenterAndExpand"
+                                Text="{Binding ExamList}"
+                                VerticalOptions="CenterAndExpand" />
+
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="15"
+                                HorizontalOptions="CenterAndExpand"
+                                Text="{Binding UnitNo}"
+                                VerticalOptions="CenterAndExpand" />
+
+                        </StackLayout>
+
+
+                    </StackLayout>
+
+
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="IFoster.View.DashBoardView.GalleryConferencePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    Title="Gallery - Conference"
+    ios:Page.UseSafeArea="true"
+    ControlTemplate="{StaticResource GalleryConferencePageTemplate}">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+
+
+            <Style TargetType="Image">
+                <Setter Property="HeightRequest" Value="140" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ScrollView>
+        <Grid
+            Margin="10,10,10,10"
+            ColumnSpacing="{OnPlatform Android=10,
+                                       iOS=10}"
+            HorizontalOptions="FillAndExpand"
+            RowSpacing="{OnPlatform Android=12,
+                                    iOS=10}"
+            VerticalOptions="FillAndExpand">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="{OnIdiom Phone=200, Tablet=250}" />
+                <RowDefinition Height="{OnIdiom Phone=200, Tablet=250}" />
+                <RowDefinition Height="{OnIdiom Phone=200, Tablet=250}" />
+                <RowDefinition Height="{OnIdiom Phone=200, Tablet=250}" />
+                <RowDefinition Height="{OnIdiom Phone=200, Tablet=250}" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Frame
+                Grid.Row="0"
+                Grid.Column="0"
+                Padding="5"
+                HorizontalOptions="FillAndExpand"
+                IsClippedToBounds="False"
+                VerticalOptions="FillAndExpand">
+
+
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+
+                    <Image Source="user.png" />
+
+
+
+                </StackLayout>
+
+
+
+            </Frame>
+
+            <Frame
+                Grid.Row="0"
+                Grid.Column="1"
+                Padding="5"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand">
+
+
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+
+                    <Image Source="user.png" />
+
+
+                </StackLayout>
+            </Frame>
+
+
+            <Frame
+                Grid.Row="1"
+                Grid.Column="0"
+                Padding="5"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand">
+
+
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+
+                    <Image Source="user.png" />
+
+
+                </StackLayout>
+            </Frame>
+
+
+            <Frame
+                Grid.Row="1"
+                Grid.Column="1"
+                Padding="5"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand">
+
+
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+
+                    <Image Source="user.png" />
+
+
+                </StackLayout>
+            </Frame>
+
+
+            <Frame
+                Grid.Row="2"
+                Grid.Column="0"
+                Padding="5"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand">
+
+
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+
+                    <Image Source="user.png" />
+
+
+                </StackLayout>
+            </Frame>
+
+            <Frame
+                Grid.Row="2"
+                Grid.Column="1"
+                Padding="5"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand">
+
+
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+
+                    <Image Source="user.png" />
+
+
+                </StackLayout>
+            </Frame>
+
+
+            <Frame
+                Grid.Row="3"
+                Grid.Column="0"
+                Padding="5"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand">
+
+
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+
+                    <Image Source="user.png" />
+
+
+                </StackLayout>
+            </Frame>
+
+
+            <Frame
+                Grid.Row="3"
+                Grid.Column="1"
+                Padding="5"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand">
+
+
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+
+                    <Image Source="user.png" />
+
+
+                </StackLayout>
+            </Frame>
+
+
+            <Frame
+                Grid.Row="4"
+                Grid.Column="0"
+                Padding="5"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand">
+
+
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+
+                    <Image Source="user.png" />
+
+
+                </StackLayout>
+            </Frame>
+
+            <Frame
+                Grid.Row="4"
+                Grid.Column="1"
+                Padding="5"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand">
+
+
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+
+                    <Image Source="user.png" />
+
+
+                </StackLayout>
+            </Frame>
+        </Grid>
+
+    </ScrollView>
+</ContentPage>

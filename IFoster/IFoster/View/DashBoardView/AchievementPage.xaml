@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IFoster.View.DashBoard.AchievementPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Achievement"
+    ios:Page.UseSafeArea="true"
+    BackgroundColor="{StaticResource PageBackgroundColor}"
+    ControlTemplate="{StaticResource AchievementsPageTemplate}"
+    NavigationPage.HasNavigationBar="False"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Image
+                HeightRequest="240"
+                HorizontalOptions="FillAndExpand"
+                Source="ic_school.jpg" />
+            <StackLayout>
+                <!--  Collection View  -->
+
+                <CollectionView
+                    Margin="5"
+                    BackgroundColor="{StaticResource PageBackgroundColor}"
+                    HorizontalOptions="FillAndExpand"
+                    ItemSizingStrategy="MeasureFirstItem"
+                    ItemsSource="{Binding ListOfAchievement}"
+                    VerticalOptions="FillAndExpand">
+
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout ItemSpacing="5" Orientation="Vertical" />
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout
+                                Padding="10"
+                                BackgroundColor="White"
+                                Orientation="Horizontal"
+                                Spacing="10"
+                                VerticalOptions="Center">
+
+                                <Frame
+                                    Padding="5"
+                                    BackgroundColor="White"
+                                    CornerRadius="35"
+                                    HasShadow="False"
+                                    HeightRequest="60"
+                                    HorizontalOptions="Start"
+                                    WidthRequest="60">
+                                    <Image Source="achievementlogo" />
+                                </Frame>
+
+                                <StackLayout Orientation="Vertical">
+
+                                    <StackLayout Orientation="Horizontal">
+
+                                        <Label
+                                            FontAttributes="Bold"
+                                            HorizontalOptions="StartAndExpand"
+                                            Text="{Binding SportsName}"
+                                            VerticalOptions="StartAndExpand" />
+
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal">
+
+                                        <Label
+                                            HorizontalOptions="StartAndExpand"
+                                            Text="{Binding Date}"
+                                            VerticalOptions="StartAndExpand" />
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal">
+
+                                        <Label
+                                            HorizontalOptions="StartAndExpand"
+                                            Text="{Binding Description}"
+                                            TextColor="LightGray"
+                                            VerticalOptions="StartAndExpand" />
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

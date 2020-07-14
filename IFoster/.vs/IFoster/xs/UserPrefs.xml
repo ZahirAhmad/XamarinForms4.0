@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{6F87C164-ADF4-4E40-B0BC-B8546DE54E39}|Default">
+  <MonoDevelop.Ide.ItemProperties.IFoster.iOS Xamarin.HotReload.DebuggerTimeoutException.IFoster.iOS.HideInfoBar="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B5B9609A-0F31-4BB9-B453-6A669C637D53" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="IFoster/View/DashboardPage.xaml.cs">
+    <Files>
+      <File FileName="IFoster/ViewModel/DashBoardViewModel/ResultPageViewModel.cs" Line="1" Column="1" />
+      <File FileName="IFoster/View/DashBoardView/ResultPage.xaml" />
+      <File FileName="IFoster/View/DashBoardView/ResultPage.xaml.cs" />
+      <File FileName="IFoster/View/LoginPage.xaml" />
+      <File FileName="IFoster/View/LoginPage.xaml.cs" />
+      <File FileName="IFoster/ViewModel/LoginPageViewModel.cs" />
+      <File FileName="IFoster/View/DashboardPage.xaml" />
+      <File FileName="IFoster/App.xaml.cs" />
+      <File FileName="IFoster/App.xaml" />
+      <File FileName="IFoster/View/DashboardPage.xaml.cs" Line="23" Column="61" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IFoster" expanded="True">
+            <Node name="IFoster" expanded="True">
+              <Node name="View" expanded="True">
+                <Node name="DashboardPage.xaml" expanded="True">
+                  <Node name="DashboardPage.xaml.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="ViewModel" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.IFoster.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.pixel_3a_xl_q_10_0_-_api_29" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

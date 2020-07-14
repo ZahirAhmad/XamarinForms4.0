@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IFoster.View.LoginPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:Local="clr-namespace:IFoster.View"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Login"
+    ios:Page.UseSafeArea="true"
+    ControlTemplate="{StaticResource LoginPageTemplate}"
+    mc:Ignorable="d">
+    <!--  Common Styles Starts  -->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Color x:Key="LightOrangeColor">#FC0000</Color>
+            <Color x:Key="BorderColor">#D8D8D8</Color>
+
+            <Style x:Key="LableStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#666666" />
+                <Setter Property="FontSize" Value="18" />
+
+            </Style>
+            <Style x:Key="FrameStyle" TargetType="Frame">
+                <Setter Property="HasShadow" Value="True" />
+                <Setter Property="Padding" Value="0" />
+
+                <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="BorderColor" Value="{StaticResource BorderColor}" />
+            </Style>
+            <Style x:Key="EntryStyle" TargetType="Entry">
+                <Setter Property="HeightRequest" Value="45" />
+
+                <Setter Property="BackgroundColor" Value="#E6E6E6" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <!--  Common Styles Ends  -->
+    <StackLayout
+        Margin="20"
+        HorizontalOptions="FillAndExpand"
+        Spacing="40"
+        VerticalOptions="FillAndExpand">
+        <Image
+            HeightRequest="160"
+            Source="ifoster"
+            WidthRequest="150" />
+
+
+        <StackLayout>
+
+
+            <Frame Style="{StaticResource FrameStyle}">
+                <Local:RoundedEntry
+                    Keyboard="Numeric"
+                    Placeholder="MobileNo"
+                    Style="{StaticResource EntryStyle}"
+                    Text="{Binding MobileNo}" />
+            </Frame>
+
+            <Frame Style="{StaticResource FrameStyle}">
+                <Local:RoundedEntry
+                    IsPassword="True"
+                    Placeholder="Password"
+                    Style="{StaticResource EntryStyle}"
+                    Text="{Binding Password}" />
+            </Frame>
+
+
+            <Button
+                BackgroundColor="{StaticResource LightOrangeColor}"
+                BorderRadius="6"
+                Command="{Binding SubmitCommand}"
+                Text="SUBMIT"
+                TextColor="White"
+                WidthRequest="200" />
+
+            <Label HorizontalOptions="CenterAndExpand" Text="--------------------------------or-----------------------------------" />
+
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                Text="Forgot Password"
+                TextColor="Black"
+                TextDecorations="Underline">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ForgetPasswordCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
+
+
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

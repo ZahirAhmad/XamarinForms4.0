@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView
+    x:Class="IFoster.View.DashBoardView.NoticeBoardTab.ClassWiseNoticeView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+    <StackLayout>
+
+        <CollectionView
+            x:Name="list"
+            BackgroundColor="DarkGray"
+            HeightRequest="{OnPlatform Android=95,
+                                       iOS=90}"
+            HorizontalOptions="FillAndExpand"
+            ItemSizingStrategy="MeasureFirstItem"
+            ItemsLayout="HorizontalList"
+            ItemsSource="{Binding ListOfClassWiseNotice}"
+            VerticalOptions="FillAndExpand">
+
+
+            <CollectionView.ItemTemplate>
+
+                <DataTemplate>
+
+                    <StackLayout
+                        Padding="10"
+                        BackgroundColor="White"
+                        Orientation="Horizontal"
+                        Spacing="10"
+                        VerticalOptions="Center">
+
+
+
+                        <Frame
+                            Padding="5"
+                            BackgroundColor="#E5E5E5"
+                            CornerRadius="30"
+                            HasShadow="False"
+                            HeightRequest="80"
+                            HorizontalOptions="Start"
+                            WidthRequest="50">
+                            <Label
+                                HorizontalOptions="CenterAndExpand"
+                                Text="{Binding Months}"
+                                VerticalOptions="CenterAndExpand" />
+                        </Frame>
+
+
+
+                    </StackLayout>
+
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+
+    </StackLayout>
+</ContentView>

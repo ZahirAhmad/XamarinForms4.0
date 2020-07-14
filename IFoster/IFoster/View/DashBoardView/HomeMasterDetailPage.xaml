@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MasterDetailPage
+    x:Class="IFoster.View.DashBoardView.HomeMasterDetailPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:detail1="clr-namespace:IFoster.View"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:master="clr-namespace:IFoster.View.DashBoardView.MasterMenuView"
+    ios:Page.UseSafeArea="true"
+    NavigationPage.HasNavigationBar="False">
+
+    <!--  Master Page  -->
+    <MasterDetailPage.Master>
+        <master:MasterOptionPage x:Name="MasterMenuPage" />
+    </MasterDetailPage.Master>
+
+    <!--  Detail Page  -->
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <detail1:DashboardPage x:Name="DetailPage" />
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
