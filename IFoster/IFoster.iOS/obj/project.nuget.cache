@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wx5DRs/5CUfcm7UBBhBfIzO3TwW2CWf1xpqi/SiTi/eclIC1omBfijPi/umsoNWO78ChmlyD0XBsgDCK3gZERA==",
+  "dgSpecHash": "XByi08AE/bqLLHQFgk2U8F3JVD9DVN0haFWDSQD94heMzbgulwZLxmZP/Ad4+Ow3m47ZPKQxegMrLHutqwttMQ==",
   "success": true,
-  "projectFilePath": "/Users/zahirahmad/Development/IFoster/IFoster.iOS/IFoster.iOS.csproj",
+  "projectFilePath": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster.iOS/IFoster.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/zahirahmad/.nuget/packages/plugin.share/7.1.1/plugin.share.7.1.1.nupkg.sha512",
     "/Users/zahirahmad/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",

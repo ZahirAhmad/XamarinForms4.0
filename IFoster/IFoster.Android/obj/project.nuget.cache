@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UyXrnKoBdRSt/ZkJJV1dRDHKTrEYARhO0CXjrznBP3MKKWoBZ66ucip99HVDoZVCtvGAo3RdV8ih9kkBbArUOQ==",
+  "dgSpecHash": "7p0n3RYTJv1mPjvgLLc2bVImIlCU8HZDvYL0J4sx/SSPpucl6Wb4noUa2hOXbZ5LRkLMJj4NquCxNsGFrnjmpg==",
   "success": true,
-  "projectFilePath": "/Users/zahirahmad/Development/IFoster/IFoster.Android/IFoster.Android.csproj",
+  "projectFilePath": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster.Android/IFoster.Android.csproj",
   "expectedPackageFiles": [
     "/Users/zahirahmad/.nuget/packages/plugin.currentactivity/1.0.1/plugin.currentactivity.1.0.1.nupkg.sha512",
     "/Users/zahirahmad/.nuget/packages/plugin.share/7.1.1/plugin.share.7.1.1.nupkg.sha512",

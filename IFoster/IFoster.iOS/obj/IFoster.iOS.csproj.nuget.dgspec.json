@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zahirahmad/Development/IFoster/IFoster.iOS/IFoster.iOS.csproj": {}
+    "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster.iOS/IFoster.iOS.csproj": {}
   },
   "projects": {
-    "/Users/zahirahmad/Development/IFoster/IFoster.iOS/IFoster.iOS.csproj": {
+    "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster.iOS/IFoster.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zahirahmad/Development/IFoster/IFoster.iOS/IFoster.iOS.csproj",
+        "projectUniqueName": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster.iOS/IFoster.iOS.csproj",
         "projectName": "IFoster.iOS",
-        "projectPath": "/Users/zahirahmad/Development/IFoster/IFoster.iOS/IFoster.iOS.csproj",
+        "projectPath": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster.iOS/IFoster.iOS.csproj",
         "packagesPath": "/Users/zahirahmad/.nuget/packages/",
-        "outputPath": "/Users/zahirahmad/Development/IFoster/IFoster.iOS/obj/",
+        "outputPath": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/zahirahmad/Development/IFoster/IFoster/IFoster.csproj": {
-                "projectPath": "/Users/zahirahmad/Development/IFoster/IFoster/IFoster.csproj"
+              "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster/IFoster.csproj": {
+                "projectPath": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster/IFoster.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "/Users/zahirahmad/Development/IFoster/IFoster/IFoster.csproj": {
+    "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster/IFoster.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zahirahmad/Development/IFoster/IFoster/IFoster.csproj",
+        "projectUniqueName": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster/IFoster.csproj",
         "projectName": "IFoster",
-        "projectPath": "/Users/zahirahmad/Development/IFoster/IFoster/IFoster.csproj",
+        "projectPath": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster/IFoster.csproj",
         "packagesPath": "/Users/zahirahmad/.nuget/packages/",
-        "outputPath": "/Users/zahirahmad/Development/IFoster/IFoster/obj/",
+        "outputPath": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zahirahmad/.config/NuGet/NuGet.Config"

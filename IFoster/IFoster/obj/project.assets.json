@@ -814,11 +814,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zahirahmad/Development/IFoster/IFoster/IFoster.csproj",
+      "projectUniqueName": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster/IFoster.csproj",
       "projectName": "IFoster",
-      "projectPath": "/Users/zahirahmad/Development/IFoster/IFoster/IFoster.csproj",
+      "projectPath": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster/IFoster.csproj",
       "packagesPath": "/Users/zahirahmad/.nuget/packages/",
-      "outputPath": "/Users/zahirahmad/Development/IFoster/IFoster/obj/",
+      "outputPath": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/zahirahmad/.config/NuGet/NuGet.Config"

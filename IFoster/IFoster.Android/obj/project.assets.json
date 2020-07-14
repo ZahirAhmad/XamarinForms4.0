@@ -2142,11 +2142,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zahirahmad/Development/IFoster/IFoster.Android/IFoster.Android.csproj",
+      "projectUniqueName": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster.Android/IFoster.Android.csproj",
       "projectName": "IFoster.Android",
-      "projectPath": "/Users/zahirahmad/Development/IFoster/IFoster.Android/IFoster.Android.csproj",
+      "projectPath": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster.Android/IFoster.Android.csproj",
       "packagesPath": "/Users/zahirahmad/.nuget/packages/",
-      "outputPath": "/Users/zahirahmad/Development/IFoster/IFoster.Android/obj/",
+      "outputPath": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2161,8 +2161,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/zahirahmad/Development/IFoster/IFoster/IFoster.csproj": {
-              "projectPath": "/Users/zahirahmad/Development/IFoster/IFoster/IFoster.csproj"
+            "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster/IFoster.csproj": {
+              "projectPath": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster/IFoster.csproj"
             }
           }
         }

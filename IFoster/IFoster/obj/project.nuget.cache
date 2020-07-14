@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ALZNI6M1BGZGd4kyJOVASiESvbBsJKJFVGEqWU8DfH1uBQI/mK76qKop8bfBy1dmowfEJTZNRVuvHntWQP6ivw==",
+  "dgSpecHash": "FkQqR7sVmU21ZSzWOK6w1/28IkZ5GCJ/B1nJYf6qXeGNEneCyniKk5qFMBbvR4/2mBq47dec8H7ke3ZQ0H9EGQ==",
   "success": true,
-  "projectFilePath": "/Users/zahirahmad/Development/IFoster/IFoster/IFoster.csproj",
+  "projectFilePath": "/Users/zahirahmad/Documents/Desktop/XamarinForms4.0/IFoster/IFoster/IFoster.csproj",
   "expectedPackageFiles": [
     "/Users/zahirahmad/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/zahirahmad/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
